@@ -15,15 +15,21 @@ namespace FactoryPattern
                     return new NintendoSwitch();
                 default: return new XboxSeriesX();
             }
+            //} return controllerAmount switch
+            //    {
+            //        1 => new PS5(),
+            //        2 => new XboxSeriesX(),
+            //        3 => new NintendoSwitch(),
+            //        _ => new XboxSeriesX(),
+            //    };
         }
-        
-            
-            
-               
+
+
+
     }
-
-
 }
+
+
 
          
     
